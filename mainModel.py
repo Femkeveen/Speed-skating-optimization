@@ -14,7 +14,7 @@ from rk4 import rk4
 
 ########### Loading relevant data ##############
 
-participant = 'Paul-Yme' #change this to the desired participant 
+participant = 'P7' #change this to the desired participant 
 file = 'Lap Fast 3'
 
 #loading the data from the measured participants 
@@ -90,7 +90,7 @@ for i in range(N-1):
 SkateForces
 
 
-# In[4]:
+# In[ ]:
 
 
 import matplotlib.pyplot as plt
@@ -140,7 +140,7 @@ plt.tight_layout()
 plt.show()
 
 
-# In[5]:
+# In[ ]:
 
 
 ############### Plotting the leg extension (input, measured) #################
@@ -172,7 +172,7 @@ plt.tight_layout()
 plt.show()
 
 
-# In[6]:
+# In[ ]:
 
 
 # Convert radians to degrees
@@ -201,7 +201,7 @@ a5[1].legend()
 plt.show()
 
 
-# In[7]:
+# In[ ]:
 
 
 #MEasured forces in x direction, in global axis
@@ -231,7 +231,7 @@ plt.show()
 # F_wrijvx = F_wrijvb * np.sin(thetab) + F_wrijv * np.sin(thetab)
 
 
-# In[11]:
+# In[ ]:
 
 
 import numpy as np
@@ -267,7 +267,7 @@ plt.grid(which='minor')
 plt.show()
 
 
-# In[12]:
+# In[ ]:
 
 
 plt.figure()
