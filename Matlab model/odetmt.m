@@ -147,7 +147,7 @@ Rtot = (-[fredtot; -Cki]);
 % ---------------------------------------------------------------------%
 %  sol1 = inv([Mdd Ckd'; Ckd zeros(1,1)])*[Fd-Mdo*ddqo ;-Cki-Cko*ddqo];
 sol1 = ([Mdd Ckd'; Ckd zeros(1,1)])\[Fd-Mdo*ddqo ;-Cki-Cko*ddqo];
-
+% ddqd(3) = ddqd(3) + 9.81
     ddqd = sol1(locd);
     if skate == 'RS' %test om deze weg te laten
     ddqd(3) = q(23);
